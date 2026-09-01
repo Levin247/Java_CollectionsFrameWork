@@ -1,5 +1,6 @@
 package com.levin.CollectionsFrameWork.ExceptionHandling;
 
+//Second
 public class FinallyBlock
 {
     public static void main(String[] args)
@@ -35,5 +36,24 @@ public class FinallyBlock
 
 
         System.out.println("Bye World");
+
+
+        //Assume we have a method and the method might throw any exception and for that we use the throw and throws keyword.
+
+        //See getNumberFromArray() method and come here.
+        getNumberFromArray(a);
+        //Now this call doesn't know if the method will have any exception.
+        //Now Compile this and see we will get error.
+        //Now see FinallyBlock1.java
+
+
+    }
+
+    //Now this method will have no idea about the size of the array right and we are returning a[8] also from the array but if the array size is less than that so it might throw an error.
+    //So we can use the throws keyword and not throw , throw is different from throws.
+    //Now think the main method calls this method.
+    static int getNumberFromArray(int[] a)
+    {
+        return a[8];
     }
 }
