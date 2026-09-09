@@ -1,7 +1,7 @@
 package com.levin.CollectionsFrameWork.ExceptionHandling;
 
 import java.util.ArrayList;
-
+/*
 public class LearnGenerics
 {
     //Fifth
@@ -36,3 +36,5 @@ class Dog<E>
         return id;
     }
 }
+
+ */
